@@ -13,6 +13,7 @@ public class Application {
 		String[][] data = GenericMethods.getData("D:\\SeleniumFiles\\May2020\\TestData.xlsx", "Sheet3");
 		for(int i = 1;i<data.length;i++) {
 		switch(data[i][3]) {
+		//Making code changes after R1.1
 	case "openBrowser":
 		Methods.openBrowser();
 		break;
